@@ -14,6 +14,7 @@
 		8431ACFB21F8371F00DCE853 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8431ACF921F8371F00DCE853 /* LaunchScreen.storyboard */; };
 		8431AD0621F8372000DCE853 /* appMLTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8431AD0521F8372000DCE853 /* appMLTests.swift */; };
 		8431AD1121F8372000DCE853 /* appMLUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8431AD1021F8372000DCE853 /* appMLUITests.swift */; };
+		84923B6D22538DDC002D8081 /* ImageClassifier.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = 84923B6C22538DDC002D8081 /* ImageClassifier.mlmodel */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		8431AD0C21F8372000DCE853 /* appMLUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = appMLUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		8431AD1021F8372000DCE853 /* appMLUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = appMLUITests.swift; sourceTree = "<group>"; };
 		8431AD1221F8372000DCE853 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		84923B6C22538DDC002D8081 /* ImageClassifier.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = ImageClassifier.mlmodel; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -102,6 +104,7 @@
 				8431ACF421F8370F00DCE853 /* Main.storyboard */,
 				8431ACF721F8371F00DCE853 /* Assets.xcassets */,
 				8431ACF921F8371F00DCE853 /* LaunchScreen.storyboard */,
+				84923B6C22538DDC002D8081 /* ImageClassifier.mlmodel */,
 				8431ACFC21F8371F00DCE853 /* Info.plist */,
 			);
 			path = appML;
@@ -258,6 +261,7 @@
 			files = (
 				8431ACF321F8370F00DCE853 /* ViewController.swift in Sources */,
 				8431ACF121F8370F00DCE853 /* AppDelegate.swift in Sources */,
+				84923B6D22538DDC002D8081 /* ImageClassifier.mlmodel in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -432,14 +436,17 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = C593X5ZQQS;
 				INFOPLIST_FILE = appML/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = abc.appML;
+				PRODUCT_BUNDLE_IDENTIFIER = afdgfdgbc.appML;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -449,14 +456,17 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = C593X5ZQQS;
 				INFOPLIST_FILE = appML/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = abc.appML;
+				PRODUCT_BUNDLE_IDENTIFIER = afdgfdgbc.appML;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
